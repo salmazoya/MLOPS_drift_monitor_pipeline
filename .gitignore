@@ -1,0 +1,31 @@
+.git
+.env
+.DS_Store
+airflow_settings.yaml
+__pycache__/
+*.pyc
+*.pyo
+astro
+.venv
+airflow-webserver.pid
+webserver_config.py
+airflow.cfg
+airflow.db
+venv/
+logs/
+tests/
+plugins/
+MLOPS_PROJECT_3.egg-info/
+*.egg-info/
+include/
+.astro/
+
+# Artifacts — keep dirs, exclude generated files
+artifacts/models/*.pkl
+artifacts/raw/*.csv
+artifacts/raw/*.parquet
+
+# Jupyter
+.ipynb_checkpoints/
+notebook/.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
