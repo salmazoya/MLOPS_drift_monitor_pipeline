@@ -1,4 +1,4 @@
-# titanic-mlops-pipeline
+# MLOPS-drift-detection-pipeline
 
 An end-to-end MLOps pipeline built on the Titanic dataset. Covers data ingestion from GCP/PostgreSQL via Apache Airflow, feature engineering with a Redis feature store, model training, a Flask prediction API, real-time data drift detection, and Prometheus + Grafana monitoring.
 
